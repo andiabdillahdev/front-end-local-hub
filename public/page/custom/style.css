@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Rubik&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #FFFFFF;
+    padding: 2.5rem 2rem;
+    height: 0rem;
+    min-height: 12vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.local_button{
+    font-size: 12px;
+    padding: 5px 25px;
+    margin-bottom: 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.local_primary{
+    background: #0C76B9;
+    color: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-expand-lg .navbar-nav li{
+    margin-left: 50px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #081B21;
+}
+
+.wrapper-content{
+    margin-top: 5rem;
+}
+
+.hero-image{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-image: url("/page/custom/assets/img/hero_section.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hero-content{
+    padding: 11.4rem;
+}
+
+.hero-content-inner h1{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 71px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.hero-content-inner span{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+    text-align : center;
+}
+
+.search-box-hero{
+    margin-top :38px;
+    width: 584px;
+    position: relative;
+    left: 20%;
+}
+
+.search-box{
+    background: #FFFFFF;
+/* border-radius: 0; */
+padding: 14px;
+font-family: 'Rubik', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #C7C6C6
+}
+
+.first-box{
+    border-radius: 41px 0px 0px 41px;
+}
+
+.second-box{
+    border-radius:0;
+}
+
+.button_hero{
+    box-sizing: border-box;
+    padding: 8px 26px 8px 26px;
+    border-radius: 0px 24.5px 24.5px 0px;
+}
+
+.button-primary{
+    background : #09649E;
+    color: #FCFCFC;
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.search-box:focus{
+    border: 1px solid rgba(9, 100, 158, 1);
+    box-shadow: 0 0 5px rgba(9, 100, 158, 1)  ;   
+    outline: none;
+}
+
+.button_hero:hover{
+    color:#FFFFFF;
+}
+
+.card_go{
+    background: #FFFFFF;
+    box-shadow: 0px 3px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+.height-md{
+    padding : 16px 32px;
+    height: 16rem;
+}
+
+.height-sm{
+    padding: 3px 14px;
+    /* height: 125px; */
+    /* height :125px; */
+}
+.title_section{
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 60px;
+
+color: #3F3E3E;
+}
+
+.section{
+    /* padding-top: px;
+    padding-bottom: 68px; */
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.section-other{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.content-section{
+    margin-top: 5rem;
+    margin-bottom: 12rem;
+}
+
+.card_go h1{
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+
+color: #09649E;
+}
+
+.card_go h6{
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 19px;
+text-align: center;
+color: #0C76B9;
+}
+
+.card_go p{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #7B7B7B;
+}
+
+.desc_pasar{
+    width: 10rem;
+    position: relative;
+    left: 66px;
+}
+
+.img-pasar{
+    position: absolute;
+}
+
+.img-pasar-item{
+    position: relative;
+    top: 5px;
+}
+
+/* .card_go span{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    
+    color: #7B7B7B;
+    
+} */
+
+.icon_service{
+    margin-bottom: 1rem;
+}
+
+.rounded_icon{
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50%;
+padding: 14px;
+}
+
+.destinasi-img{
+    width:100%;
+}
+
+.content-destinasi{
+    padding : 10px 15px 10px 15px;
+}
+
+.content-destinasi h1{
+    text-align : left;
+    font-size : 18px;
+}
+
+.content-destinasi p{
+    text-align : left;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.first-destinasi-item{
+    width:11rem;
+}
+
+.second-destinasi-item span{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 15px;
+
+    color: #09649E;
+}
+
+.second-destinasi-item p{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    /* identical to box height */
+
+
+    color: #09649E;
+}
+
+.marker_destinasi{
+    
+    position: absolute;
+    bottom: 61px;
+    right: 115px;
+
+}
+
+.footer-desc{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.title-footer{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 44px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.list-footer{
+    list-style: none;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+}
+
+.list-footer li{
+    margin-top: 10px;
+}
+
+#footer{
+    background: #081B21;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+padding: 80px 60px;
+}
+
+footer{
+    background: #07578A;
+    padding :8px;
+}
+
+footer p{
+    list-style: none;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+color: #FFFFFF;
+text-align: center;
+}
+
+#content-penginapan p{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 122% */
+    
+    
+    color: #3F3E3E;
+}
+
+.card-penginapan{
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+padding: 20px 18px;
+}
+
+.content-card-penginapan h1{
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+color: #6C6B6B;
+}
+
+.content-card-penginapan span{
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+color: #6C6B6B;
+}
+
+.row-conten-small{
+    margin-left: 1px;
+}
+
+.row-conten-small p{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    /* identical to box height */
+    
+    
+    color: #6C6B6B; 
+}
+
+.row-conten-small span{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    /* identical to box height */
+    margin-left: 4rem;
+    
+    color: #6C6B6B; 
+}
+
+.card-text-content{
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+
+color: #6C6B6B;
+}
+
+.form-area-search{
+    background: #07578A;
+box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+padding: 12px 30px;
+}
+
+.form-area-search h1{
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.label-side-form{
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.form_page-side{
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+padding: 14px;
+/* identical to box height */
+
+
+color: #C7C6C6;
+}
+
+.img-pasar-area{
+    width: 100%;
+}
+@media screen and (max-width: 768px){
+    .search-box-hero{
+        /* position: absolute;
+        left: -113px; */
+        display: none;
+    }
+
+    .search-box {
+        width: 8rem;
+    }
+
+    .hero-content-inner h1{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .hero-content-inner span {
+        font-size: 11px;
+        line-height: 9px;
+        position: absolute;
+        right: 82px;
+    }
+
+   .hero-content {
+    padding: 6.4rem;
+   }
+
+   .title_section {
+    font-size: 24px;
+    }
+
+    .section{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .content-section{
+        margin-top: 1rem;
+    margin-bottom: 4rem;
+    }
+
+    .card_go{
+        margin-top: 2rem;
+    }
+
+    .card_go h1 {
+        font-size: 16px;
+    }
+
+    .card_go p {
+        font-size: 11px;
+        line-height: 17px;    
+    }
+
+    .height-md {
+        height: 14rem;
+    }
+
+    .marker_destinasi {
+        right: 123px;
+    }
+
+    .img-pasar-area img{
+        width: 100%;
+    }
+
+    .footer-desc{
+        text-align: left;
+    margin-top: 1rem;
+    }
+
+    .list-footer {
+        position: relative;
+        right: 2rem;
+    }
+
+    .section-other img{   
+    width: 10rem;
+    }
+
+    #content-penginapan p{ 
+    font-size: 12px;
+    line-height: 22px;
+    }
+    .card-penginapan{
+        border-radius: 0;
+        padding: 6px 8px;
+    }
+
+    .content-card-penginapan h1{
+        font-size: 12px;
+    }
+    
+    .content-card-penginapan span{
+        font-size:10px;
+    }
+}
+
+
+
